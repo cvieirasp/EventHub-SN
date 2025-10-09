@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="DELETE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_476470_eventhub.CA_Personal_Github</id>
+        <is_internal>false</is_internal>
+        <multiple_connections>false</multiple_connections>
+        <name>CA_Personal Github</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-09 16:18:48</sys_created_on>
+        <sys_id>81293a2c83ac721092eec5d6feaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_476470_eventhub.CA_Personal_Github</sys_name>
+        <sys_package display_value="EventHub" source="x_476470_eventhub">2328b2e883ac721092eec5d6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EventHub">2328b2e883ac721092eec5d6feaad3fd</sys_scope>
+        <sys_update_name>sys_alias_81293a2c83ac721092eec5d6feaad353</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-09 16:18:48</sys_updated_on>
+        <type>credential</type>
+    </sys_alias>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EventHub">2328b2e883ac721092eec5d6feaad3fd</application>
+        <file_path/>
+        <instance_id>844e05aafb02d2980921f633beefdc30</instance_id>
+        <instance_name>dev292173</instance_name>
+        <name>sys_alias_81293a2c83ac721092eec5d6feaad353</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias"><sys_alias action="INSERT_OR_UPDATE"><configuration_template/><connection_type>http_connection</connection_type><id>x_476470_eventhub.CA_Personal_Github</id><is_internal>false</is_internal><multiple_connections>false</multiple_connections><name>CA_Personal Github</name><parent/><retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy><sys_class_name>sys_alias</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-09 16:18:48</sys_created_on><sys_id>81293a2c83ac721092eec5d6feaad353</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_476470_eventhub.CA_Personal_Github</sys_name><sys_package display_value="EventHub" source="x_476470_eventhub">2328b2e883ac721092eec5d6feaad3fd</sys_package><sys_policy/><sys_scope display_value="EventHub">2328b2e883ac721092eec5d6feaad3fd</sys_scope><sys_update_name>sys_alias_81293a2c83ac721092eec5d6feaad353</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-09 16:18:48</sys_updated_on><type>credential</type></sys_alias></record_update>]]></payload>
+        <payload_hash>781706215</payload_hash>
+        <record_name>x_476470_eventhub.CA_Personal_Github</record_name>
+        <reverted_from/>
+        <source>6f28f2e883ac721092eec5d6feaad301</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-09 16:18:48</sys_created_on>
+        <sys_id>4f39ba2c83ac721092eec5d6feaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199c9c498a10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-09 16:18:48</sys_updated_on>
+        <type>Connection &amp; Credential Aliases</type>
+        <update_guid>c339ba2c03ac7210f8d7977db78a163b</update_guid>
+        <update_guid_history>c339ba2c03ac7210f8d7977db78a163b:781706215</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-09 16:19:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_alias">sys_alias</sys_db_object>
+        <sys_id>76022444a31a48b29710a69ba4de12a9</sys_id>
+        <sys_metadata>81293a2c83ac721092eec5d6feaad353</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_476470_eventhub.CA_Personal_Github</sys_name>
+        <sys_package display_value="EventHub" source="x_476470_eventhub">2328b2e883ac721092eec5d6feaad3fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EventHub">2328b2e883ac721092eec5d6feaad3fd</sys_scope>
+        <sys_scope_delete display_value="">a108b2b103fe437092c0258a9895d100</sys_scope_delete>
+        <sys_update_name>sys_alias_81293a2c83ac721092eec5d6feaad353</sys_update_name>
+        <sys_update_version display_value="sys_alias_81293a2c83ac721092eec5d6feaad353">4f39ba2c83ac721092eec5d6feaad33b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-09 16:19:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
