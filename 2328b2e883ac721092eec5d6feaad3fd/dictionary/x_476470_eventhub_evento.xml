@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="67cc3e6083ec721092eec5d6feaad3e7" extends="task" label="Evento" max_length="40" name="x_476470_eventhub_evento" type="collection">
+        <element label="CEP" max_length="10" name="cep" type="string"/>
+        <element label="Data/Hora Fim" mandatory="true" max_length="40" name="data_hora_fim" type="glide_date_time"/>
+        <element label="Número" max_length="10" name="numero" type="string"/>
+        <element label="Complemento" max_length="50" name="complemento" type="string"/>
+        <element choice="1" label="Tipo de Evento" mandatory="true" max_length="40" name="tipo_evento" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Treinamento" sequence="2" value="treinamento"/>
+                <element inactive_on_update="false" label="Webinar" sequence="3" value="webinar"/>
+                <element inactive_on_update="false" label="Outro" sequence="4" value="outro"/>
+                <element inactive_on_update="false" label="Workshop" sequence="1" value="workshop"/>
+                <element inactive_on_update="false" label="Talk" sequence="0" value="talk"/>
+            </choice>
+        </element>
+        <element label="UF" max_length="50" name="uf" type="string"/>
+        <element label="Capacidade (vagas)" mandatory="true" max_length="40" name="capacidade" type="integer"/>
+        <element label="Cidade" max_length="50" name="cidade" type="string"/>
+        <element label="Centro de Custo" max_length="10" name="centro_custo" type="string"/>
+        <element choice="1" label="Público-alvo" max_length="40" name="publico_alvo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Interno" sequence="0" value="interno"/>
+                <element inactive_on_update="false" label="Externo" sequence="1" value="externo"/>
+                <element inactive_on_update="false" label="Híbrido" sequence="2" value="hibrido"/>
+            </choice>
+        </element>
+        <element label="Data/Hora Início" mandatory="true" max_length="40" name="data_hora_inicio" type="glide_date_time"/>
+        <element label="Local" max_length="50" name="local" type="string"/>
+        <element label="Link" max_length="1024" name="link" type="url"/>
+        <element label="Logradouro" max_length="50" name="logradouro" type="string"/>
+        <element label="Custo Estimado" max_length="40" name="custo_estimado" type="currency"/>
+        <element label="Bairro" max_length="50" name="bairro" type="string"/>
+    </element>
+</database>

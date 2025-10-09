@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="fda00be483ec721092eec5d6feaad38c" sys_domain="global" table="x_476470_eventhub_evento" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-09 16:51:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ea00be483ec721092eec5d6feaad390</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_476470_eventhub_evento" name="x_476470_eventhub_evento" sys_domain="global" view="Default view">fda00be483ec721092eec5d6feaad38c</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_476470_eventhub_evento" sys_domain="global" view="Default view">48dc3e6083ec721092eec5d6feaad3c8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-09 16:51:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-09 16:51:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8aa00be483ec721092eec5d6feaad391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_476470_eventhub_evento" name="x_476470_eventhub_evento" sys_domain="global" view="Default view">fda00be483ec721092eec5d6feaad38c</sys_ui_form>
+            <sys_ui_section caption="Endereço" display_value="Endereço" name="x_476470_eventhub_evento" sys_domain="global" view="Default view">fda00be483ec721092eec5d6feaad38a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-09 16:51:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-09 16:51:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16a00be483ec721092eec5d6feaad395</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_476470_eventhub_evento" name="x_476470_eventhub_evento" sys_domain="global" view="Default view">fda00be483ec721092eec5d6feaad38c</sys_ui_form>
+            <sys_ui_section caption="Financeiro" display_value="Financeiro" name="x_476470_eventhub_evento" sys_domain="global" view="Default view">31a00be483ec721092eec5d6feaad38c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-09 16:51:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_476470_eventhub_evento</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-09 16:51:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fda00be483ec721092eec5d6feaad38c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_476470_eventhub_evento</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="EventHub" source="x_476470_eventhub">2328b2e883ac721092eec5d6feaad3fd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EventHub">2328b2e883ac721092eec5d6feaad3fd</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fda00be483ec721092eec5d6feaad38c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-09 16:51:13</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

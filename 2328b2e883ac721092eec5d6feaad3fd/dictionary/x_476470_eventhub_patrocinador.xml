@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="02b883e08320b21092eec5d6feaad36d" label="Patrocinador" max_length="40" name="x_476470_eventhub_patrocinador" type="collection">
+        <element label="Site" max_length="1024" name="site" type="url"/>
+        <element label="Razão Social" mandatory="true" max_length="50" name="razao_social" type="string"/>
+        <element label="Endereço" max_length="250" name="endereco" type="string"/>
+        <element display="true" label="Nome Fantasia" mandatory="true" max_length="50" name="nome_fantasia" type="string"/>
+        <element label="CNPJ" mandatory="true" max_length="20" name="cnpj" type="string"/>
+    </element>
+</database>

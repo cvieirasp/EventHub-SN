@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="78c5cfac83ec721092eec5d6feaad340" label="Participante" max_length="40" name="x_476470_eventhub_participante" type="collection">
+        <element display="true" label="Email" mandatory="true" max_length="50" name="email" type="string"/>
+        <element label="Nome Completo" max_length="100" name="nome_completo" type="string"/>
+        <element label="Telefone" max_length="20" name="telefone" type="string"/>
+        <element label="Empresa" max_length="50" name="empresa" type="string"/>
+        <element label="Usuário" max_length="32" name="usuario" reference="sys_user" type="reference"/>
+        <element choice="1" label="Tipo" mandatory="true" max_length="40" name="tipo" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Interno" sequence="0" value="interno"/>
+                <element inactive_on_update="false" label="Externo" sequence="1" value="externo"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="usuario"/>
+        </index>
+    </element>
+</database>

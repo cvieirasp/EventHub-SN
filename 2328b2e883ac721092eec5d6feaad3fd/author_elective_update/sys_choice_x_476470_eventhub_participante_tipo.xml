@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="tipo" table="x_476470_eventhub_participante" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>tipo</element>
+            <name>x_476470_eventhub_participante</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-09 17:17:04</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tipo</sys_name>
+            <sys_package display_value="EventHub" source="x_476470_eventhub">2328b2e883ac721092eec5d6feaad3fd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EventHub">2328b2e883ac721092eec5d6feaad3fd</sys_scope>
+            <sys_update_name>sys_choice_x_476470_eventhub_participante_tipo</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-09 17:17:04</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Interno</label>
+            <language>en</language>
+            <name>x_476470_eventhub_participante</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-09 17:17:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-09 17:17:04</sys_updated_on>
+            <value>interno</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipo</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Externo</label>
+            <language>en</language>
+            <name>x_476470_eventhub_participante</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-09 17:17:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-09 17:17:04</sys_updated_on>
+            <value>externo</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
