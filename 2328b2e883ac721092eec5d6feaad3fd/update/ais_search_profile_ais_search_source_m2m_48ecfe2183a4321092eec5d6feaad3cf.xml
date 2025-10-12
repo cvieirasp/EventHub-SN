@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="eventhub Search Profile">bedcbe2121a4321032b86ec97294a418</profile>
+        <search_source display_value="Evento">00ecfe2183a4321092eec5d6feaad3cc</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-12 19:08:38</sys_created_on>
+        <sys_id>48ecfe2183a4321092eec5d6feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>eventhub Search Profile.Evento</sys_name>
+        <sys_package display_value="EventHub" source="x_476470_eventhub">2328b2e883ac721092eec5d6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EventHub">2328b2e883ac721092eec5d6feaad3fd</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_48ecfe2183a4321092eec5d6feaad3cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-12 19:08:38</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_476470_eventhub_evento">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </condition>
+        <group/>
+        <name>EventHub Workspace - x_476470_eventhub_evento</name>
+        <roles/>
+        <source_table>x_476470_eventhub_evento</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-12 19:08:37</sys_created_on>
+        <sys_id>3bdcfe2183a4321092eec5d6feaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EventHub Workspace - x_476470_eventhub_evento</sys_name>
+        <sys_package display_value="EventHub" source="x_476470_eventhub">2328b2e883ac721092eec5d6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EventHub">2328b2e883ac721092eec5d6feaad3fd</sys_scope>
+        <sys_update_name>sys_search_source_3bdcfe2183a4321092eec5d6feaad37b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-12 19:08:37</sys_updated_on>
+    </sys_search_source>
+</record_update>

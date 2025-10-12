@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>KPI Details</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-12 19:08:33</sys_created_on>
+        <sys_id>fedcbe21c8a432101398b09981b4b50d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KPI Details</sys_name>
+        <sys_package display_value="EventHub" source="x_476470_eventhub">2328b2e883ac721092eec5d6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EventHub">2328b2e883ac721092eec5d6feaad3fd</sys_scope>
+        <sys_update_name>sys_ux_screen_type_fedcbe21c8a432101398b09981b4b50d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-12 19:08:33</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=fedcbe21c8a432101398b09981b4b50d"/>
+</record_update>

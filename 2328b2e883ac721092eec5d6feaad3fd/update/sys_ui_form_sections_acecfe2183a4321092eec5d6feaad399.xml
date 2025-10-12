@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="acecfe2183a4321092eec5d6feaad399" sys_domain="global" table="x_476470_eventhub_evento" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 19:08:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3cecfe2183a4321092eec5d6feaad39f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_476470_eventhub_evento" name="x_476470_eventhub_evento" sys_domain="global" view="3edcbe21b7a432104ea3df8cd6f02910">acecfe2183a4321092eec5d6feaad399</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_476470_eventhub_evento" sys_domain="global" view="3edcbe21b7a432104ea3df8cd6f02910">78ecfe2183a4321092eec5d6feaad39d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 19:08:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 19:08:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4ec726183a4321092eec5d6feaad342</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_476470_eventhub_evento" name="x_476470_eventhub_evento" sys_domain="global" view="3edcbe21b7a432104ea3df8cd6f02910">acecfe2183a4321092eec5d6feaad399</sys_ui_form>
+            <sys_ui_section caption="Endereço" display_value="Endereço" name="x_476470_eventhub_evento" sys_domain="global" view="3edcbe21b7a432104ea3df8cd6f02910">70ec726183a4321092eec5d6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 19:08:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 19:08:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38ec726183a4321092eec5d6feaad36d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_476470_eventhub_evento" name="x_476470_eventhub_evento" sys_domain="global" view="3edcbe21b7a432104ea3df8cd6f02910">acecfe2183a4321092eec5d6feaad399</sys_ui_form>
+            <sys_ui_section caption="Financeiro" display_value="Financeiro" name="x_476470_eventhub_evento" sys_domain="global" view="3edcbe21b7a432104ea3df8cd6f02910">bcec726183a4321092eec5d6feaad346</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 19:08:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_476470_eventhub_evento</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 19:08:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>acecfe2183a4321092eec5d6feaad399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_476470_eventhub_evento</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="EventHub" source="x_476470_eventhub">2328b2e883ac721092eec5d6feaad3fd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EventHub">2328b2e883ac721092eec5d6feaad3fd</sys_scope>
+            <sys_update_name>sys_ui_form_sections_acecfe2183a4321092eec5d6feaad399</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 19:08:40</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace EventHub Workspace 0" name="workspace-eventhub-workspace-0">3edcbe21b7a432104ea3df8cd6f02910</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

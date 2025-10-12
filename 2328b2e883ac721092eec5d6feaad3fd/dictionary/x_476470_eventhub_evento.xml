@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="67cc3e6083ec721092eec5d6feaad3e7" extends="task" label="Evento" max_length="40" name="x_476470_eventhub_evento" type="collection">
+    <element db_object_id="67cc3e6083ec721092eec5d6feaad3e7" extends="task" label="Evento" max_length="40" name="x_476470_eventhub_evento" text_index="true" type="collection">
         <element label="CEP" max_length="10" name="cep" type="string"/>
         <element label="Data/Hora Fim" mandatory="true" max_length="40" name="data_hora_fim" type="glide_date_time"/>
         <element label="Número" max_length="10" name="numero" type="string"/>
@@ -9,8 +9,8 @@
                 <element inactive_on_update="false" label="Treinamento" sequence="2" value="treinamento"/>
                 <element inactive_on_update="false" label="Webinar" sequence="3" value="webinar"/>
                 <element inactive_on_update="false" label="Outro" sequence="4" value="outro"/>
-                <element inactive_on_update="false" label="Workshop" sequence="1" value="workshop"/>
                 <element inactive_on_update="false" label="Talk" sequence="0" value="talk"/>
+                <element inactive_on_update="false" label="Workshop" sequence="1" value="workshop"/>
             </choice>
         </element>
         <element label="UF" max_length="50" name="uf" type="string"/>

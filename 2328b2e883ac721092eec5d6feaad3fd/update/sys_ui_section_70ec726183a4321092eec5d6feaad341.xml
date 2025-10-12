@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Endereço" section_id="70ec726183a4321092eec5d6feaad341" sys_domain="global" table="x_476470_eventhub_evento" version="3" view="workspace-eventhub-workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cep</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 19:08:40</sys_created_on>
+            <sys_id>7cec726183a4321092eec5d6feaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Endereço" display_value="Endereço" name="x_476470_eventhub_evento" sys_domain="global" view="3edcbe21b7a432104ea3df8cd6f02910">70ec726183a4321092eec5d6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 19:08:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 19:08:40</sys_created_on>
+            <sys_id>70ec726183a4321092eec5d6feaad346</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Endereço" display_value="Endereço" name="x_476470_eventhub_evento" sys_domain="global" view="3edcbe21b7a432104ea3df8cd6f02910">70ec726183a4321092eec5d6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 19:08:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bairro</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 19:08:40</sys_created_on>
+            <sys_id>f4ec726183a4321092eec5d6feaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Endereço" display_value="Endereço" name="x_476470_eventhub_evento" sys_domain="global" view="3edcbe21b7a432104ea3df8cd6f02910">70ec726183a4321092eec5d6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 19:08:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>uf</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 19:08:40</sys_created_on>
+            <sys_id>f8ec726183a4321092eec5d6feaad345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Endereço" display_value="Endereço" name="x_476470_eventhub_evento" sys_domain="global" view="3edcbe21b7a432104ea3df8cd6f02910">70ec726183a4321092eec5d6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 19:08:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 19:08:40</sys_created_on>
+            <sys_id>70ec726183a4321092eec5d6feaad343</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Endereço" display_value="Endereço" name="x_476470_eventhub_evento" sys_domain="global" view="3edcbe21b7a432104ea3df8cd6f02910">70ec726183a4321092eec5d6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 19:08:40</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>logradouro</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 19:08:40</sys_created_on>
+            <sys_id>74ec726183a4321092eec5d6feaad345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Endereço" display_value="Endereço" name="x_476470_eventhub_evento" sys_domain="global" view="3edcbe21b7a432104ea3df8cd6f02910">70ec726183a4321092eec5d6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 19:08:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complemento</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 19:08:40</sys_created_on>
+            <sys_id>78ec726183a4321092eec5d6feaad344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Endereço" display_value="Endereço" name="x_476470_eventhub_evento" sys_domain="global" view="3edcbe21b7a432104ea3df8cd6f02910">70ec726183a4321092eec5d6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 19:08:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cidade</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 19:08:40</sys_created_on>
+            <sys_id>fcec726183a4321092eec5d6feaad344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Endereço" display_value="Endereço" name="x_476470_eventhub_evento" sys_domain="global" view="3edcbe21b7a432104ea3df8cd6f02910">70ec726183a4321092eec5d6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 19:08:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>local</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 19:08:40</sys_created_on>
+            <sys_id>f0ec726183a4321092eec5d6feaad344</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Endereço" display_value="Endereço" name="x_476470_eventhub_evento" sys_domain="global" view="3edcbe21b7a432104ea3df8cd6f02910">70ec726183a4321092eec5d6feaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 19:08:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Endereço</caption>
+            <header>false</header>
+            <name>x_476470_eventhub_evento</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 19:08:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70ec726183a4321092eec5d6feaad341</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_476470_eventhub_evento</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="EventHub" source="x_476470_eventhub">2328b2e883ac721092eec5d6feaad3fd</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EventHub">2328b2e883ac721092eec5d6feaad3fd</sys_scope>
+            <sys_update_name>sys_ui_section_70ec726183a4321092eec5d6feaad341</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 19:08:40</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace EventHub Workspace 0" name="workspace-eventhub-workspace-0">3edcbe21b7a432104ea3df8cd6f02910</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="53c40b6c83ec721092eec5d6feaad306" extends="task" label="Inscrição" max_length="40" name="x_476470_eventhub_inscricao" type="collection">
+    <element db_object_id="53c40b6c83ec721092eec5d6feaad306" extends="task" label="Inscrição" max_length="40" name="x_476470_eventhub_inscricao" text_index="true" type="collection">
         <element label="Participante" mandatory="true" max_length="32" name="participante" reference="x_476470_eventhub_participante" type="reference"/>
         <element choice="1" label="Presença" mandatory="true" max_length="40" name="presenca" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Indefinido" sequence="0" value="indefinido"/>
                 <element inactive_on_update="false" label="Presente" sequence="1" value="presente"/>
                 <element inactive_on_update="false" label="Ausente" sequence="2" value="ausente"/>
+                <element inactive_on_update="false" label="Indefinido" sequence="0" value="indefinido"/>
             </choice>
         </element>
         <element label="Data/Hora Check-in" max_length="40" name="data_hora_check_in" type="glide_date_time"/>

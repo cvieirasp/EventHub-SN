@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="default_synonym_dictionary">b29df374c7531010d1cfd9795cc260cd</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="eventhub Search Profile">bedcbe2121a4321032b86ec97294a418</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-12 19:08:34</sys_created_on>
+        <sys_id>3adcbe215da43210c2d86c3fdc1db917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>default_synonym_dictionary.eventhub Search Profile</sys_name>
+        <sys_package display_value="EventHub" source="x_476470_eventhub">2328b2e883ac721092eec5d6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EventHub">2328b2e883ac721092eec5d6feaad3fd</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_3adcbe215da43210c2d86c3fdc1db917</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-12 19:08:34</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

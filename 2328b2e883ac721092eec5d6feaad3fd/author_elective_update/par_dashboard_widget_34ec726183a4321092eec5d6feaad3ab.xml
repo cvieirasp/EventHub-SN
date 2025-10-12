@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">f0ec726183a4321092eec5d6feaad39f</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"header-primary","label":"Happening Now","wontWrap":false,"hasNoMargin":false,"level":"1","filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-12 19:08:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>34ec726183a4321092eec5d6feaad3ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="EventHub" source="x_476470_eventhub">2328b2e883ac721092eec5d6feaad3fd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EventHub">2328b2e883ac721092eec5d6feaad3fd</sys_scope>
+        <sys_update_name>par_dashboard_widget_34ec726183a4321092eec5d6feaad3ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-12 19:08:41</sys_updated_on>
+        <visualization/>
+        <w>47</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EventHub">2328b2e883ac721092eec5d6feaad3fd</application>
+        <file_path/>
+        <instance_id>844e05aafb02d2980921f633beefdc30</instance_id>
+        <instance_name>dev292173</instance_name>
+        <name>par_dashboard_widget_34ec726183a4321092eec5d6feaad3ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">f0ec726183a4321092eec5d6feaad39f</canvas><component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component><component_props>{"variant":"header-primary","label":"Happening Now","wontWrap":false,"hasNoMargin":false,"level":"1","filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props><h>3</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-12 19:08:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>34ec726183a4321092eec5d6feaad3ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="EventHub" source="x_476470_eventhub">2328b2e883ac721092eec5d6feaad3fd</sys_package><sys_policy/><sys_scope display_value="EventHub">2328b2e883ac721092eec5d6feaad3fd</sys_scope><sys_update_name>par_dashboard_widget_34ec726183a4321092eec5d6feaad3ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-12 19:08:41</sys_updated_on><visualization/><w>47</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1966730093</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>611c762083ec721092eec5d6feaad35f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-12 19:08:41</sys_created_on>
+        <sys_id>81ec726183a4321092eec5d6feaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199d9d334ff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-12 19:08:41</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>09ec7261d3a43210869482bee71a8cac</update_guid>
+        <update_guid_history>09ec7261d3a43210869482bee71a8cac:-1966730093</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">8dec726183a4321092eec5d6feaad3e0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-12 19:08:42</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>214ca206aa47452c985255a4b5005fe4</sys_id>
+        <sys_metadata>34ec726183a4321092eec5d6feaad3ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EventHub" source="x_476470_eventhub">2328b2e883ac721092eec5d6feaad3fd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EventHub">2328b2e883ac721092eec5d6feaad3fd</sys_scope>
+        <sys_scope_delete display_value="">a108b2b103fe437092c0258a9895d100</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_34ec726183a4321092eec5d6feaad3ab</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_34ec726183a4321092eec5d6feaad3ab">81ec726183a4321092eec5d6feaad3ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-12 19:08:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
