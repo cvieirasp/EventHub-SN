@@ -5,9 +5,24 @@ declare global {
         namespace Internal {
             interface Keys extends KeysRegistry {
                 explicit: {
+                    '61834451c3a332100b3a3132b40131db': {
+                        table: 'sys_embedded_help_role'
+                        id: '61834451c3a332100b3a3132b40131db'
+                        deleted: true
+                    }
+                    '9a438411c3a332100b3a3132b40131f5': {
+                        table: 'sys_embedded_help_role'
+                        id: '9a438411c3a332100b3a3132b40131f5'
+                        deleted: true
+                    }
                     bom_json: {
                         table: 'sys_module'
                         id: '10c074f79afc46a99f08a1345055b851'
+                    }
+                    fea38851c3a332100b3a3132b40131b5: {
+                        table: 'sys_embedded_help_role'
+                        id: 'fea38851c3a332100b3a3132b40131b5'
+                        deleted: true
                     }
                     package_json: {
                         table: 'sys_module'
@@ -177,6 +192,7 @@ declare global {
                     {
                         table: 'sys_user_role'
                         id: '373d1e63a9a042739252024a47405dd7'
+                        deleted: true
                         key: {
                             name: 'x_476470_eventhub.admin'
                         }
@@ -184,6 +200,7 @@ declare global {
                     {
                         table: 'sys_user_role'
                         id: '3be2d75488c54fcfb4f8d78f55862d59'
+                        deleted: true
                         key: {
                             name: 'x_476470_eventhub.agent'
                         }
@@ -650,6 +667,7 @@ declare global {
                     {
                         table: 'sys_user_role'
                         id: 'f91dd930a2be455a9f93740fef42ef59'
+                        deleted: true
                         key: {
                             name: 'x_476470_eventhub.user'
                         }
