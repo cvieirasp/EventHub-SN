@@ -19,6 +19,26 @@ declare global {
                         table: 'sys_module'
                         id: '10c074f79afc46a99f08a1345055b851'
                     }
+                    event_admin_delete: {
+                        table: 'sys_security_acl'
+                        id: '85fdad4d1cc843aaabc2ef885d1d5d40'
+                    }
+                    event_admin_read: {
+                        table: 'sys_security_acl'
+                        id: '2237bc732e94462c9ed6018dc65d5590'
+                    }
+                    event_agent_create: {
+                        table: 'sys_security_acl'
+                        id: 'e3bedf7939784ca19ae4813f9fa80cde'
+                    }
+                    event_agent_read: {
+                        table: 'sys_security_acl'
+                        id: '906ba70cfe744fff8662c3368c16f7ff'
+                    }
+                    event_agent_write: {
+                        table: 'sys_security_acl'
+                        id: 'd6f5094774eb48a780ac92ce8e89ae6a'
+                    }
                     event_request_admin_create: {
                         table: 'sys_security_acl'
                         id: 'd6bc190091fa48ad9de6ef3c5a4e7f9d'
@@ -50,6 +70,10 @@ declare global {
                         table: 'sys_security_acl'
                         id: 'e5b1cdc41aa74129a4f53b78ace8328f'
                     }
+                    event_user_read: {
+                        table: 'sys_security_acl'
+                        id: '8c069e4a970645e48c6fe2b57a1fdac1'
+                    }
                     fea38851c3a332100b3a3132b40131b5: {
                         table: 'sys_embedded_help_role'
                         id: 'fea38851c3a332100b3a3132b40131b5'
@@ -77,6 +101,15 @@ declare global {
                     }
                 }
                 composite: [
+                    {
+                        table: 'sys_choice'
+                        id: '009550f40412457cb69037e7d03bab09'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'location_type'
+                            value: 'in_person'
+                        }
+                    },
                     {
                         table: 'sys_dictionary'
                         id: '014f958c4a6743fba3b6456279af65c9'
@@ -127,6 +160,14 @@ declare global {
                         key: {
                             name: 'x_476470_eventhub_event_request'
                             element: 'integration_status'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '0b28b8f744a94fd6914e559c562e0482'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'agenda'
                         }
                     },
                     {
@@ -184,6 +225,24 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '1545c5dff7e2482897929a918b135e3d'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'end'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '1548d05e40c14d8d8912aa97a5f2fcf3'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'NULL'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '16e9ffd3b87c4199bf3424d1e525035d'
                         key: {
@@ -197,6 +256,19 @@ declare global {
                         key: {
                             name: 'x_476470_eventhub_event_request'
                             element: 'risk_level'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '1cc889b79f724ceeaf947c6882e5d462'
+                        key: {
+                            sys_security_acl: '906ba70cfe744fff8662c3368c16f7ff'
+                            sys_user_role: {
+                                id: '3be2d75488c54fcfb4f8d78f55862d59'
+                                key: {
+                                    name: 'x_476470_eventhub.agent'
+                                }
+                            }
                         }
                     },
                     {
@@ -218,6 +290,36 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '2170839424884fa7b502bef5626a7710'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'description'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '21ed68f69ccb4ef98ff6dee5990074f1'
+                        key: {
+                            sys_security_acl: 'd6f5094774eb48a780ac92ce8e89ae6a'
+                            sys_user_role: {
+                                id: '3be2d75488c54fcfb4f8d78f55862d59'
+                                key: {
+                                    name: 'x_476470_eventhub.agent'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '22b27b5450fc4688bf05df0ed870b803'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'room'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '23f18224fc854f189be907ed4d83e0c1'
                         key: {
@@ -232,6 +334,15 @@ declare global {
                         key: {
                             name: 'x_476470_eventhub_event_request'
                             element: 'requested_by'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '26b5a62c0ca24920b94762f10ce23828'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'site'
                             language: 'en'
                         }
                     },
@@ -269,11 +380,27 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '2fb4d766faf14e05a7c76522ce5de727'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_choice_set'
                         id: '30877904a7064d9e99d97419f1d76b7d'
                         key: {
                             name: 'x_476470_eventhub_event_request'
                             element: 'event_type'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '3299560b35b44ce28693a99db5c17fb0'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'site'
                         }
                     },
                     {
@@ -311,6 +438,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: '36e1b105ec7844aa9c7cf5e7b76ef878'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'status'
+                            value: 'closed'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '372b90b1e3d743db8b307022d1ccc4f6'
                         key: {
@@ -327,11 +463,49 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '37f29748f6dd4761aa53b1f82fae3f1a'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'event_request'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '3a998fa7480141a8a280a7056f9c03e2'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'meeting_link'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '3b0d3aeb467b489da8d1bcd8d7aeaf09'
+                        key: {
+                            sys_security_acl: 'e3bedf7939784ca19ae4813f9fa80cde'
+                            sys_user_role: {
+                                id: '3be2d75488c54fcfb4f8d78f55862d59'
+                                key: {
+                                    name: 'x_476470_eventhub.agent'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_user_role'
                         id: '3be2d75488c54fcfb4f8d78f55862d59'
                         deleted: false
                         key: {
                             name: 'x_476470_eventhub.agent'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '3e488a44876945d791cefe688ef905e4'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'location_type'
+                            language: 'en'
                         }
                     },
                     {
@@ -359,6 +533,30 @@ declare global {
                             name: 'x_476470_eventhub_event_request'
                             element: 'site'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: '437db9112651429f937e3372a3cd924e'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'location_type'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '45339a3e4b7b45d99ffdeefe8309f0f0'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'room'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '47494bfab3b84d40b912c809f0d6db43'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'status'
                         }
                     },
                     {
@@ -395,12 +593,29 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '4e6349eee6e54c39bafe578d0147364e'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'capacity'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '4e7d452e01a14579aa1cc48fa7c63000'
                         key: {
                             name: 'x_476470_eventhub_event_request'
                             element: 'event_type'
                             value: 'general_meeting'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '4fb45596fd3c422bb92969db2fbbd1b4'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'description'
+                            language: 'en'
                         }
                     },
                     {
@@ -470,11 +685,28 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '5e0687ee03854377adb899d983d3b977'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'end'
+                        }
+                    },
+                    {
                         table: 'sys_choice_set'
                         id: '5eef0f755799491899ef59b555b9c1e7'
                         key: {
                             name: 'x_476470_eventhub_event_request'
                             element: 'approval_stage'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '608f1f267afd4111b8665fde101fd66e'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'status'
+                            value: 'cancelled'
                         }
                     },
                     {
@@ -507,6 +739,32 @@ declare global {
                     },
                     {
                         table: 'sys_dictionary'
+                        id: '6b4f1f281390406b8cdbfe3aa77ce833'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'timezone'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '6e2de5599810411c8a1bb726f6e0ca97'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'timezone'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '6e7e4682353c4ed289d00c3bec2a8832'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'location_type'
+                            value: 'remote'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
                         id: '725ab3d050ed4d0195b8d4b1b5212776'
                         key: {
                             name: 'x_476470_eventhub_event_request'
@@ -519,6 +777,15 @@ declare global {
                         key: {
                             name: 'x_476470_eventhub_event_request'
                             element: 'cost_center'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '774de5a5ea864c4aa6cd90081a202642'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'agenda'
+                            language: 'en'
                         }
                     },
                     {
@@ -535,6 +802,15 @@ declare global {
                         key: {
                             name: 'x_476470_eventhub_event_request'
                             element: 'budget_estimate'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '8119f22e450246f780aeee7a2d177881'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'name'
+                            language: 'en'
                         }
                     },
                     {
@@ -597,6 +873,15 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
+                        id: '920b274bc4e14b3d9cdda415f250d9fe'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'capacity'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
                         id: '93b2b80a12374c5ba7c7feebc5fa152d'
                         key: {
                             name: 'x_476470_eventhub_event_request'
@@ -644,6 +929,24 @@ declare global {
                     },
                     {
                         table: 'sys_documentation'
+                        id: '9d5c30b4f12146ffad47f22359f341ef'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'event_request'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '9f4144b3ed004f179ad7dd25e1e3c49e'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'status'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
                         id: 'a1acceae93b444bcbfc4c4fcf40923e4'
                         key: {
                             name: 'x_476470_eventhub_event_request'
@@ -658,6 +961,14 @@ declare global {
                             name: 'x_476470_eventhub_room'
                             element: 'has_video_conference'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'a32cd2108bb34c188bb9ee82b60ef2d0'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'banner_image'
                         }
                     },
                     {
@@ -676,6 +987,15 @@ declare global {
                             name: 'x_476470_eventhub_event_request'
                             element: 'approval_stage'
                             value: 'draft'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'a600573e21ab4984a44d7573ddb80bbe'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'meeting_link'
+                            language: 'en'
                         }
                     },
                     {
@@ -712,6 +1032,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: 'ab187b1a02bb426f8c3ea7730ad1fd14'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'banner_image'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: 'ab62b120b87f42fba10ce2a3d997a62c'
                         key: {
@@ -740,6 +1069,19 @@ declare global {
                             name: 'x_476470_eventhub_event_request'
                             element: 'integration_status'
                             value: 'not_called'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: 'ad2165a7b67e43fabb45ace9c36e2fbb'
+                        key: {
+                            sys_security_acl: '85fdad4d1cc843aaabc2ef885d1d5d40'
+                            sys_user_role: {
+                                id: '373d1e63a9a042739252024a47405dd7'
+                                key: {
+                                    name: 'x_476470_eventhub.admin'
+                                }
+                            }
                         }
                     },
                     {
@@ -777,6 +1119,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: 'b8b636daef3d4ca8abb11929e020b0ca'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'start'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'b9e33846e1f746e2865be6151e9ad671'
                         key: {
@@ -791,6 +1141,15 @@ declare global {
                         key: {
                             name: 'x_476470_eventhub_room'
                             element: 'has_video_conference'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'baff2c58958b434ba45c65dfa661164f'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'start'
+                            language: 'en'
                         }
                     },
                     {
@@ -838,6 +1197,13 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_db_object'
+                        id: 'c6e9be6abf2345bd8df82c22eec3294c'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                        }
+                    },
+                    {
                         table: 'sys_user_role_contains'
                         id: 'c88e8d9f745147cfbb7f8d18faf7ebab'
                         deleted: false
@@ -854,6 +1220,14 @@ declare global {
                                     name: 'x_476470_eventhub.user'
                                 }
                             }
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: 'c8ade90e149a4a8ca9367ab226385326'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'status'
                         }
                     },
                     {
@@ -892,6 +1266,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_choice'
+                        id: 'cf9efb98d50e4274b991d24b39b980f9'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'status'
+                            value: 'open_for_registration'
+                        }
+                    },
+                    {
                         table: 'sys_security_acl_role'
                         id: 'd096dbe5e7eb473182693db1f3cb38be'
                         key: {
@@ -905,12 +1288,40 @@ declare global {
                         }
                     },
                     {
+                        table: 'ua_table_licensing_config'
+                        id: 'd6887f4c2dc44524bac2f4bed20aa957'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'd73afe697bc5469db70be4fd158bce5e'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'owner'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'd84125565fa34d51b994f7b412974b9a'
                         key: {
                             name: 'x_476470_eventhub_event_request'
                             element: 'budget_estimate'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: 'dd20878b30b94fcca0ae725243490f1e'
+                        key: {
+                            sys_security_acl: '8c069e4a970645e48c6fe2b57a1fdac1'
+                            sys_user_role: {
+                                id: 'f91dd930a2be455a9f93740fef42ef59'
+                                key: {
+                                    name: 'x_476470_eventhub.user'
+                                }
+                            }
                         }
                     },
                     {
@@ -924,6 +1335,23 @@ declare global {
                                     name: 'x_476470_eventhub.admin'
                                 }
                             }
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'dfbab3c8170c4c20aad9d5b91ca563bc'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'name'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'dfdbcddf1ee04a1bbe792107b2295905'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'status'
+                            value: 'planned'
                         }
                     },
                     {
@@ -984,11 +1412,41 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: 'e71c090a17cf4dcfa7df7ba7cd43319e'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'location_type'
+                        }
+                    },
+                    {
                         table: 'sys_choice_set'
                         id: 'e75a32ea4fee40a38316538a50712b59'
                         key: {
                             name: 'x_476470_eventhub_room'
                             element: 'availability_status'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: 'e90f8c6df923425d835a34a0e6dff2f2'
+                        key: {
+                            sys_security_acl: '2237bc732e94462c9ed6018dc65d5590'
+                            sys_user_role: {
+                                id: '373d1e63a9a042739252024a47405dd7'
+                                key: {
+                                    name: 'x_476470_eventhub.admin'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'e95d16de97e4466f93def821cb92c69f'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'owner'
+                            language: 'en'
                         }
                     },
                     {
@@ -998,6 +1456,24 @@ declare global {
                             name: 'x_476470_eventhub_event_request'
                             element: 'integration_status'
                             value: 'success'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'ee5df7631f794bf1a9ee373029502191'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'location_type'
+                            value: 'hybrid'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'efbf1e2a3c204a47b541e9e20c893b80'
+                        key: {
+                            name: 'x_476470_eventhub_event'
+                            element: 'status'
+                            value: 'completed'
                         }
                     },
                     {

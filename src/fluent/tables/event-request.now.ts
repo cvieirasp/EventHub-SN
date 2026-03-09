@@ -74,7 +74,7 @@ export const x_476470_eventhub_event_request = Table({
 
         room: ReferenceColumn({
             label: 'Room',
-            referenceTable: 'x_acme_evt_room',
+            referenceTable: 'x_476470_eventhub_room',
             mandatory: false
         }),
 
